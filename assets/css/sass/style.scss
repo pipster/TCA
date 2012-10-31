@@ -41,10 +41,15 @@ width: 940px;
 }
 }
 
+h1 {
+  color: $yellow;
+  font-family: $f_bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 .logo {
-  position: absolute;
-  top: 50px;
-  left: 400px;
+  
 }
 
 .navbar-fixed-top {

@@ -8268,41 +8268,42 @@ blockquote {
   }
 }
 /* line 44, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
-.logo {
-  position: absolute;
-  top: 50px;
-  left: 400px;
+h1 {
+  color: #ffcc00;
+  font-family: "nexa_boldregular", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
-/* line 50, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 55, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-fixed-top {
   top: 200px;
   position: absolute;
 }
 
-/* line 56, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 61, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .navbar-inner {
   background-image: none;
   border: none;
   background-color: black;
 }
-/* line 64, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 69, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li.active a {
   color: #ffcc00;
   background-color: black;
 }
-/* line 67, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 72, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li.active a:hover, .navbar-inverse .nav > li.active a:focus {
   color: #ffcc00;
   background-color: black;
 }
-/* line 74, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 79, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li a {
   font-family: "nexa_lightregular", sans-serif;
   text-transform: uppercase;
   color: white;
 }
-/* line 76, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 81, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li a:hover, .navbar-inverse .nav > li a:focus {
   color: #ffcc00;
   background-color: black;
@@ -8312,7 +8313,7 @@ blockquote {
    slideshow for full page bg images
    ========================================================================== */
 /* This will set the images width to span the entire page */
-/* line 91, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 96, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 #slideshow, img.bgM {
   min-height: 100%;
   min-width: 1024px;
