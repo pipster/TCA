@@ -1,4 +1,43 @@
 /*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Fontfabric
+ * License URL: http://www.fontspring.com/fflicense/fontfabric
+ *
+ *
+ */
+@font-face {
+  font-family: 'nexa_boldregular';
+  src: url("web-fonts/nexa-free-bold-macroman/nexa-free-bold-webfont.eot");
+  src: url("web-fonts/nexa-free-bold-macroman/nexa-free-bold-webfont.eot?#iefix") format("embedded-opentype"), url("web-fonts/nexa-free-bold-macroman/nexa-free-bold-webfont.woff") format("woff"), url("web-fonts/nexa-free-bold-macroman/nexa-free-bold-webfont.ttf") format("truetype"), url("web-fonts/nexa-free-bold-macroman/nexa-free-bold-webfont.svg#nexa_boldregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nexa_lightregular';
+  src: url("web-fonts/nexa-free-light-macroman/nexa-free-light-webfont.eot");
+  src: url("web-fonts/nexa-free-light-macroman/nexa-free-light-webfont.eot?#iefix") format("embedded-opentype"), url("web-fonts/nexa-free-light-macroman/nexa-free-light-webfont.woff") format("woff"), url("web-fonts/nexa-free-light-macroman/nexa-free-light-webfont.ttf") format("truetype"), url("web-fonts/nexa-free-light-macroman/nexa-free-light-webfont.svg#nexa_lightregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
  * Bootstrap v2.1.1
  *
  * Copyright 2012 Twitter, Inc
@@ -8211,62 +8250,69 @@ a.badge:hover {
 /* ==========================================================================
    TCA's custom styles
    ========================================================================== */
+/* fonts */
+/* line 30, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+/* line 34, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+blockquote {
+  font-family: "nexa_lightregular", sans-serif;
+}
+
 @media (min-width: 0px) and (max-width: 800px) {
-  /* line 17, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+  /* line 39, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
   .navbar-fixed-top {
     width: 940px;
   }
 }
-/* line 22, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 44, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .logo {
   position: absolute;
   top: 50px;
   left: 400px;
 }
 
-/* line 28, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 50, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-fixed-top {
   top: 200px;
   position: absolute;
 }
 
-/* line 34, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 56, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .navbar-inner {
   background-image: none;
   border: none;
   background-color: black;
 }
-/* line 42, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 64, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li.active a {
   color: #ffcc00;
   background-color: black;
 }
-/* line 45, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 67, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li.active a:hover, .navbar-inverse .nav > li.active a:focus {
   color: #ffcc00;
   background-color: black;
 }
-/* line 52, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 74, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li a {
-  color: white;
+  font-family: "nexa_lightregular", sans-serif;
   text-transform: uppercase;
+  color: white;
 }
-/* line 55, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 76, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li a:hover, .navbar-inverse .nav > li a:focus {
   color: #ffcc00;
   background-color: black;
-}
-
-/* line 64, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
-body {
-  font-family: 'Lato', sans-serif;
 }
 
 /* ==========================================================================
    slideshow for full page bg images
    ========================================================================== */
 /* This will set the images width to span the entire page */
-/* line 72, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 91, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 #slideshow, img.bgM {
   min-height: 100%;
   min-width: 1024px;

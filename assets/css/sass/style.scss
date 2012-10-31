@@ -1,4 +1,5 @@
 @import "compass";
+@import "fonts";
 @import "bootstrap";
 @import "bootstrap-responsive"; 
 @import "ie";  
@@ -12,6 +13,27 @@ $yellow: #ffcc00;
 $white: #ffffff;
 $black: #000000;
 $black: #000000;
+
+/* fonts */
+$f_main: 'Verdana', sans-serif;
+$f_headings: 'nexa_lightregular', sans-serif;
+$f_nav: 'nexa_lightregular', sans-serif;
+$f_bold: 'nexa_boldregular', sans-serif;
+$f_quote: 'nexa_lightregular', sans-serif;
+
+@mixin nav_text {
+  font-family: $f_headings;
+  text-transform: uppercase;
+  color: $white;
+}
+
+body {
+  font-family: $f_main;
+}
+
+blockquote {
+  font-family: $f_quote;
+}
 
 @media (min-width: 0px) and (max-width: 800px) {
 .navbar-fixed-top {
@@ -50,8 +72,7 @@ width: 940px;
 
     }
     a {
-      color: $white;
-      text-transform: uppercase;
+      @include nav_text;
       &:hover, &:focus {
         color: $yellow;
         background-color: $black;
@@ -61,9 +82,7 @@ width: 940px;
   
 }
 
-body {
-	font-family: 'Lato', sans-serif;
-}
+
 
    /* ==========================================================================
       slideshow for full page bg images

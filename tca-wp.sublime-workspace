@@ -376,26 +376,29 @@
 	"buffers":
 	[
 		{
-			"file": "assets/sass/style.scss",
+			"file": "awards.html",
 			"settings":
 			{
-				"buffer_size": 1303,
-				"line_ending": "Windows"
+				"buffer_size": 5924,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/css-sass-convert/messy.css",
+			"contents": "/*\n * Web Fonts from fontspring.com\n *\n * All OpenType features and all extended glyphs have been removed.\n * Fully installable fonts can be purchased at http://www.fontspring.com\n *\n * The fonts included in this stylesheet are subject to the End User License you purchased\n * from Fontspring. The fonts are protected under domestic and international trademark and \n * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or\n * distributing this font software.\n *\n * (c) 2010-2012 Fontspring\n *\n *\n *\n *\n * The fonts included are copyrighted by the vendor listed below.\n *\n * Vendor:      Fontfabric\n * License URL: http://www.fontspring.com/fflicense/fontfabric\n *\n *\n */\n\n@font-face {\n    font-family: 'nexa_boldregular';\n    src: url('Nexa_Free_Bold-webfont.eot');\n    src: url('Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),\n         url('Nexa_Free_Bold-webfont.woff') format('woff'),\n         url('Nexa_Free_Bold-webfont.ttf') format('truetype'),\n         url('Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');\n    font-weight: normal;\n    font-style: normal;\n\n}\n\n",
+			"file": "assets/web-fonts/nexafree-bold-macroman/stylesheet.css",
+			"file_size": 1129,
+			"file_write_time": 129961907670610241,
 			"settings":
 			{
-				"buffer_size": 121,
-				"line_ending": "Windows"
+				"buffer_size": 1129,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/css/style.css",
+			"file": "assets/css/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 253278,
+				"buffer_size": 1736,
 				"line_ending": "Windows"
 			}
 		}
@@ -884,11 +887,18 @@
 	},
 	"file_history":
 	[
-		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css-sass-convert/clean.scss",
-		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css-sass-convert/messy.css",
+		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/_fonts.scss",
+		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/web-fonts/nexafree-bold-macroman/specimen_files/specimen_stylesheet.css",
 		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/index.html",
-		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/sass/style.scss",
 		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/config.rb",
+		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss",
+		"/C/Users/philip/AppData/Roaming/Sublime Text 2/Packages/User/CSS/start-css-comment.sublime-snippet",
+		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/print.scss",
+		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/ie.scss",
+		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/style.css",
+		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/sass/style.scss",
+		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css-sass-convert/messy.css",
+		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css-sass-convert/clean.scss",
 		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/css/style.css",
 		"/C/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/html-site/config.rb",
 		"/C/Users/philip/AppData/Roaming/Sublime Text 2/Packages/Compass/README.markdown",
@@ -1004,14 +1014,7 @@
 		"/C/xampp/htdocs/sandbox/sessions/test.html",
 		"/C/Users/philip/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/package-metadata.json",
 		"/C/Users/philip/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-menu",
-		"/C/Users/philip/AppData/Roaming/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-		"/C/Users/philip/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-		"/C/xampp/htdocs/sandbox/sessions/index.php",
-		"/C/xampp/htdocs/sandbox/sessions/two.php",
-		"/C/xampp/htdocs/sandbox/sessions/sessions.sublime-project",
-		"/C/Users/philip/Desktop/test/sample.sublime-project",
-		"/C/Users/philip/Desktop/test/index.html",
-		"/C/Users/philip/Desktop/test/css/style.css"
+		"/C/Users/philip/AppData/Roaming/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu"
 	],
 	"find":
 	{
@@ -1038,6 +1041,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Nexa_Free_Bold",
 			"src=\"images/",
 			"assets/images/",
 			"jpg'",
@@ -1164,8 +1168,7 @@
 			"marquee",
 			"marqee",
 			"marquee",
-			"$username = '';\n	$stmt->execute();",
-			"distraction"
+			"$username = '';\n	$stmt->execute();"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1228,23 +1231,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/sass/style.scss",
+					"file": "awards.html",
 					"settings":
 					{
-						"buffer_size": 1303,
+						"buffer_size": 5924,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								635,
-								635
+								1479,
+								1479
 							]
 						],
 						"settings":
@@ -1262,6 +1265,7 @@
 							"gjslint_options":
 							[
 							],
+							"is_xml": false,
 							"javascript_linter": "jshint",
 							"jshint_options":
 							{
@@ -1298,30 +1302,30 @@
 								"Python Django": "python"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 26.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "assets/css-sass-convert/messy.css",
+					"file": "assets/web-fonts/nexafree-bold-macroman/stylesheet.css",
 					"settings":
 					{
-						"buffer_size": 121,
+						"buffer_size": 1129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								121,
-								0
+								312,
+								312
 							]
 						],
 						"settings":
@@ -1391,18 +1395,18 @@
 			[
 				{
 					"buffer": 2,
-					"file": "assets/css/style.css",
+					"file": "assets/css/sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 253278,
+						"buffer_size": 1736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								252640,
-								252640
+								529,
+								529
 							]
 						],
 						"settings":
@@ -1456,12 +1460,12 @@
 								"Python Django": "python"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 147492.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
