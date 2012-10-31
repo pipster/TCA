@@ -1,0 +1,83 @@
+@import "compass";
+@import "bootstrap";
+@import "bootstrap-responsive";   
+
+/* ==========================================================================
+   TCA's custom styles
+   ========================================================================== */
+
+$yellow: #ffcc00;
+$white: #ffffff;
+$black: #000000;
+$red: #ff0000;
+
+@media (min-width: 0px) and (max-width: 800px) {
+.navbar-fixed-top {
+width: 940px;
+}
+}
+
+.test {
+  color: $red;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+}
+
+.navbar-fixed-top {
+  top: 200px;
+  position: absolute;
+}
+
+.navbar-inverse {
+  .navbar-inner {
+    background-image: none;
+    border: none;
+    background-color: $black;
+
+  }
+  .nav > li {
+    &.active {
+      a {
+        color: $yellow;
+        background-color: $black;
+        &:hover, &:focus {
+          color: $yellow;
+          background-color: $black; 
+        }
+      }
+
+    }
+    a {
+      color: $white;
+      text-transform: uppercase;
+      &:hover, &:focus {
+        color: $yellow;
+        background-color: $black;
+      }
+    }
+  }
+  
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+   /* ==========================================================================
+      slideshow for full page bg images
+      ========================================================================== */
+      /* This will set the images width to span the entire page */
+      #slideshow, img.bgM {
+        min-height: 100%;
+        min-width: 1024px;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index:-9999;
+}  
