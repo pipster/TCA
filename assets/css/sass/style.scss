@@ -93,6 +93,9 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff252525,endCol
     font-size: 10px;
     line-height:180%;
     text-shadow: none;
+    &:hover {
+      color: $white;
+    } 
   }
 }
 
