@@ -36,7 +36,9 @@ body {
   line-height: 1.1em;
 }
 
-
+a:hover {
+  color: $dark_gray;
+}
 
 header {
   position: relative;
