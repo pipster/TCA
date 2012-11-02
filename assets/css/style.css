@@ -8259,12 +8259,17 @@ body {
 }
 
 /* line 39, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+a:hover {
+  color: #333333;
+}
+
+/* line 43, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 header {
   position: relative;
   height: 160px;
   padding-top: 50px;
 }
-/* line 43, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 47, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 header blockquote {
   position: absolute;
   right: 30%;
@@ -8275,31 +8280,31 @@ header blockquote {
   border: none;
   padding-top: 25px;
 }
-/* line 53, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 57, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 header .logo {
   position: absolute;
   right: 1%;
   display: block;
 }
 
-/* line 60, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 64, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 footer {
   color: white;
   position: relative;
   margin-top: 20px;
 }
-/* line 65, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 69, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 footer .copyright {
   position: absolute;
   top: 10px;
   right: 0;
   font-size: 8px;
 }
-/* line 71, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 75, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 footer img {
   padding: 0 30px;
 }
-/* line 75, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 79, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 footer .navbar-inner {
   /* Firefox v3.6+ */
   background-image: -moz-linear-gradient(50% 0% -90deg, #252525 0%, #362e2d 100%);
@@ -8316,31 +8321,31 @@ footer .navbar-inner {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff252525,endColorstr=#ff362e2d,GradientType=0)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff252525,endColorstr=#ff362e2d,GradientType=0);
 }
-/* line 91, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 95, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 footer .navbar .nav > li > a {
   color: white;
   font-size: 10px;
   line-height: 180%;
   text-shadow: none;
 }
-/* line 96, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 100, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 footer .navbar .nav > li > a:hover {
   color: white;
 }
 
-/* line 114, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 118, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 strong {
   color: dark_gray;
 }
 
-/* line 118, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 122, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 h2 {
   padding: 0;
   margin: 0;
   font-size: 14px;
   line-height: 20px;
 }
-/* line 124, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 128, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 h2 a {
   color: #ffcc00;
   font-size: 14px;
@@ -8351,13 +8356,13 @@ h2 a {
   font-weight: normal;
 }
 
-/* line 135, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 139, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-fixed-top {
   top: 200px;
   position: absolute;
 }
 
-/* line 140, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 144, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inner {
   border: none;
   -webkit-border-radius: 0;
@@ -8368,36 +8373,36 @@ h2 a {
   box-shadow: 0;
 }
 
-/* line 151, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 155, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .navbar-inner {
   background-image: none;
   border: none;
   background-color: black;
 }
-/* line 158, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 162, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li.active a {
   color: #ffcc00;
   background-color: black;
 }
-/* line 161, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 165, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li.active a:hover, .navbar-inverse .nav > li.active a:focus {
   color: #ffcc00;
   background-color: black;
 }
-/* line 168, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 172, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li a {
   font-family: "nexa_lightregular", sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 14px;
 }
-/* line 170, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 174, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .navbar-inverse .nav > li a:hover, .navbar-inverse .nav > li a:focus {
   color: #ffcc00;
   background-color: black;
 }
 
-/* line 179, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 183, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .dropdown-menu a {
   color: #898989 !important;
   font-size: 12px !important;
@@ -8405,24 +8410,24 @@ h2 a {
   text-transform: capitalize !important;
 }
 
-/* line 186, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 190, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
   color: #ffcc00 !important;
   background-image: none !important;
   font-weight: bold !important;
 }
 
-/* line 194, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 198, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
   background-image: none !important;
 }
 
-/* line 198, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 202, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .dropdown-menu a:hover {
   color: #ffcc00 !important;
 }
 
-/* line 202, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 206, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 .nav > li.dropdown.active > a {
   color: #ffcc00 !important;
 }
@@ -8431,7 +8436,7 @@ h2 a {
    slideshow for full page bg images
    ========================================================================== */
 /* This will set the images width to span the entire page */
-/* line 212, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
+/* line 216, C:/Users/philip/Dropbox/phil-stuff/my-sites/tca-wp/assets/css/sass/style.scss */
 #slideshow, img.bgM {
   min-height: 100%;
   min-width: 1024px;
