@@ -15,23 +15,34 @@
         <script src="assets/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
     <body>
+    <div class="name"></div>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 <div class="container">
-    <header class="span12"><blockquote>Our efforts show a good quote to go here.</blockquote>
-        <img class="logo pull-right" src="assets/images/tca-logo.png" height="138" width="211" alt="TCA Architects - Design for an intelligent world.">
-    </header>
+    <header class="span12"><blockquote>Our efforts<br> show a good<br> quote to go here.</blockquote>
+        <img class="logo" src="assets/images/tca-logo.png" height="138" width="211" alt="TCA Architects - Design for an intelligent world.">
+    </header><!-- END header -->
     <div class="clearfix"></div>
     <div class="navbar navbar-inverse">
             <div class="navbar-inner">
-                <div class="container">
-                    <div>
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a><!-- END (navicon) -->
+                    <div class="nav-collapse">
                         <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">About TCA</a></li>
+                            <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About TCA <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Clients</a></li>
+                                    <li class="active"><a href="#">Awards</a></li>
+                                    <li><a href="#">People</a></li>
+                                    <li><a href="#">Firm People</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">Portfolio</a></li>
                             <li><a href="#">Sustainability</a></li>
                             <li><a href="#">Highdef</a></li>
@@ -39,120 +50,137 @@
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
-                </div>
-            </div>
-        </div>
+            </div><!-- END .navbar-inner -->
+        </div><!-- END .navbar.navbar-inverse -->
     <div class="row-fluid">
-     <div class="span4">5550 WILSHIRE
-<h1>Los Angeles, CA</h1> 
-PCBC Gold Nugget Grand Award 2012 
-Best Mixed-Use Project
-Pillars of the Industry Awards 2012 
-Finalist - Best Mid-Rise Apartment 
+     <div class="span4"><h2><a href="#">5550 WILSHIRE</a></h2>
+<p>Los Angeles, CA<br>
+    <strong>PCBC Gold Nugget Grand Award 2012</strong><br> 
+    Best Mixed-Use Project<br>
+    <strong>Pillars of the Industry Awards 2012</strong><br> 
+    Finalist - Best Mid-Rise Apartment</p>
 
-<h1>SANTA BARBARA</h1> 
-Rancho Cucamonga, CA
-Pillars of the Industry Awards 2012 
-Finalist - Best Garden Apartment (4 stories  under)
+<h2><a href="#">SANTA BARBARA</a></h2> 
+<p>Rancho Cucamonga, CA<br>
+    <strong>Pillars of the Industry Awards 2012</strong><br> 
+    Finalist - Best Garden Apartment (4 stories  under)</p>
 
-<h1>WILSHIRE LA BREA</h1> 
-Los Angeles, CA 
-PCBC Gold Nugget Grand Award 2011 
-Best On-The-Boards Mixed-Use Project 
-affection
+<h2><a href="#">WILSHIRE LA BREA</a></h2> 
+<p>Los Angeles, CA<br>
+    <strong>PCBC Gold Nugget Grand Award 2011</strong><br> 
+    Best On-The-Boards Mixed-Use Project<br> 
+    affection</p>
 
-<h1>BOARDWALK</h1>
-PCBC Gold Nugget Award of Merit 2011
-Outstanding On the Boards Mixed-Use Project
+<h2><a href="#">BOARDWALK</a></h2>
+<p><strong>PCBC Gold Nugget Award of Merit 2011</strong><br>
+    Outstanding On the Boards Mixed-Use Project</p>
 
-<h1>WESTGATE PASADENA</h1> 
-Pasadena, CA 
-Pillars of the Industry Awards 2011 
-Best Apartment Community (non-garden) PCBC Gold Nugget Finalist 2011 
-Best Multi Family Housing Project - 4 to 6 stories (For Sale or Rent) 
-Residential Project of the Year - Attached Product in an Urban Setting 
-PCBC Gold Nugget Award of Merit 2010 
-Best Community Site Plan up to 20 Acres 
-PCBC Gold Nugget Award of Merit 2009 
-Best On the Boards Site Plan 
-PCBC Gold Nugget Award of Merit 2007 
-Best On the Boards Site Plan </div>
-     <div class="span4">7950 WEST SUNSET 
-Los Angeles, CA 
-PCBC Gold Nugget Grand Award 2009 
-Residential Community of the Year Attached 
-PCBC Gold Nugget Award of Merit 2009 
-Outstanding Mid-Rise Apartment, 4-6 stories, For Rent 
-Pillars of the Industry Awards 2008 
-Finalist Best Mid-Rise Apartment 
+<h2><a href="#">WESTGATE PASADENA</a></h2> 
+<p>
+    Pasadena, CA <br> 
+   <strong> Pillars of the Industry Awards 2011</strong><br> 
+    Best Apartment Community (non-garden) PCBC Gold Nugget Finalist 2011<br> 
+    Best Multi Family Housing Project - 4 to 6 stories (For Sale or Rent)<br> 
+    Residential Project of the Year - Attached Product in an Urban Setting<br> 
+    <strong>PCBC Gold Nugget Award of Merit 2010</strong><br> 
+    Best Community Site Plan up to 20 Acres<br> 
+    <strong>PCBC Gold Nugget Award of Merit 2009</strong><br> 
+    Best On the Boards Site Plan<br> 
+    <strong>PCBC Gold Nugget Award of Merit 2007</strong><br> 
+    Best On the Boards Site Plan</p></div><!-- END .span4 -->
 
-CANVAS LA 
-Los Angeles, CA 
-PCBC Gold Nugget Award of Merit 2009 
-Outstanding Mid-Rise Apartment, 4-6 stories, For Rent 
-Pillars of the Industry Awards 2008 
-F?Tedinalist - Rental Community Non Garden 
+     <div class="span4"><h2><a href="#">7950 WEST SUNSET</a></h2>
+     <p>Los Angeles, CA<br> 
+         <strong>PCBC Gold Nugget Grand Award 2009</strong><br> 
+         Residential Community of the Year Attached<br> 
+         <strong>PCBC Gold Nugget Award of Merit 2009</strong><br> 
+         Outstanding Mid-Rise Apartment, 4-6 stories, For Rent<br> 
+         <strong>Pillars of the Industry Awards 2008</strong><br> 
+         Finalist Best Mid-Rise Apartment</p>
 
-1100 WILSHIRE 
-Los Angeles, CA 
-PCBC Gold Nugget Award of Merit 2007 
-Best Adaptive Re-Use Project 
+<h2><a href="#">CANVAS LA</a></h2> 
+<p>Los Angeles, CA<br> 
+    <strong>PCBC Gold Nugget Award of Merit 2009</strong><br> 
+    Outstanding Mid-Rise Apartment, 4-6 stories, For Rent<br> 
+    <strong>Pillars of the Industry Awards 2008</strong><br>
+    Finalist - Rental Community Non Garden</p>
 
-THE ENCLAVE AT SOUTH COAST
-Costa Mesa, CA 
-PCBC Gold Nugget Award of Merit 0000
-Outstanding Low-Rise Apartment, 1-3 stories, For Rent 
+<h2><a href="#">1100 WILSHIRE</a></h2> 
+<p>Los Angeles, CA<br> 
+    <strong>PCBC Gold Nugget Award of Merit 2007</strong><br> 
+    Best Adaptive Re-Use Project</p>
 
-SHADE AT DESERT RIDGE 
-Phoenix, AZ 
-PCBC Gold Nugget Grand Award 2007 
-Best Low Rise Apartment Project – 
-Up to 3 Stories 
-PCBC Gold Nugget Award of Merit 2007 
-Attached Suburban Residential 
-Project of the Year 
-Pillars of the Industry Awards 2007 
-Best Rental Apartment Community 
-5 stories or less (non-garden) </div>
-     <div class="span4">GATEWAY LITTLE TOKYO 
-Los Angeles, CA 
-PCBC Gold Nugget Award of Merit 2007 
-Best On the Boards Site Plan 
+<h2><a href="">THE ENCLAVE AT SOUTH COAST</a></h2>
+<p>Costa Mesa, CA<br> 
+    <strong>PCBC Gold Nugget Award of Merit 0000</strong><br>
+    Outstanding Low-Rise Apartment, 1-3 stories, For Rent</p>
 
-BOTANICA ON THE GREEN 
-Denver, CO 
-Best of American Living Award 2005 
-Silver Winner Best Rental Development 
+<h2><a href="#">SHADE AT DESERT RIDGE</a></h2> 
+<p>Phoenix, AZ<br>
+     <strong>PCBC Gold Nugget Grand Award 2007</strong><br> 
+     Best Low Rise Apartment Project – Up to 3 Stories<br> 
+     <strong>PCBC Gold Nugget Award of Merit 2007</strong><br>
+     Attached Suburban Residential<br>
+     Project of the Year<br>
+     <strong>Pillars of the Industry Awards 2007</strong> 
+     Best Rental Apartment Community<br>
+     5 stories or less (non-garden)</p> </div><!-- END .span4 -->
+     <div class="span4">
+     <h2><a href="#">GATEWAY LITTLE TOKYO</a></h2> 
+<p>Los Angeles, CA<br> 
+    <strong>PCBC Gold Nugget Award of Merit 2007</strong><br> 
+    Best On the Boards Site Plan</p>
 
-WATERSTONE 
-Playa Vista, CA 
-PCBC Gold Nugget Award of Merit 2007 
-Best Attached Housing Project – Over 4 Stories 
+<h2><a href="#">BOTANICA ON THE GREEN</a></h2> 
+<p>Denver, CO<br> 
+    <strong>Best of American Living Award 2005</strong><br> 
+    Silver Winner Best Rental Development</p>
 
-1100 WILSHIRE 
-Los Angeles, CA 
-PCBC Gold Nugget Award of Merit 2007 
-Best Adaptive Re-Use Project 
+<h2><a href="#">WATERSTONE</a></h2> 
+<p>Playa Vista, CA<br> 
+    <strong>PCBC Gold Nugget Award of Merit 2007</strong><br> 
+    Best Attached Housing Project – Over 4 Stories</p>
 
-MADISON AT TOWN CENTER
-Valencia, CA 
-PCBC Gold Nugget Grand Award 2004 
-Attached Community of the Year 
-PCBC Gold Nugget Grand Award 2004 
-Mixed Use Project of the Year 
-Best in American Living Award 2004 
-Platinum Winner Best Rental Development 
-Silver Winner Smart Growth Community 
+<h2><a href="#">1100 WILSHIRE</a></h2> 
+<p>Los Angeles, CA<br> 
+    <strong>PCBC Gold Nugget Award of Merit 2007</strong><br> 
+    Best Adaptive Re-Use Project </p>
 
-CULVER PLAZA 
-Irvine, CA 
-PCBC Gold Nugget Award of Merit 2004 
-Best Commercial Retail Project 
+<h2><a href="#">MADISON AT TOWN CENTER</a></h2>
+<p>Valencia, CA<br> 
+    <strong>PCBC Gold Nugget Grand Award 2004</strong><br> 
+    Attached Community of the Year<br> 
+    <strong>PCBC Gold Nugget Grand Award 2004</strong><br> 
+    Mixed Use Project of the Year<br> 
+    <strong>Best in American Living Award 2004</strong><br> 
+    Platinum Winner Best Rental Development<br> 
+    Silver Winner Smart Growth Community</p>
 
-LEGACY AT STUDIO CITY 
-Studio City, CA </div>
-    </div>
-</div>
+<h2><a href="#">CULVER PLAZA</a></h2> 
+<p>Irvine, CA<br> 
+    <strong>PCBC Gold Nugget Award of Merit 2004</strong><br> 
+    Best Commercial Retail Project</p>
+
+<h2><a href="#">LEGACY AT STUDIO CITY</a></h2> 
+<p>Studio City, CA</p> </div><!-- END .span4 -->
+    </div><!-- END .row-fluid -->
+    
+    <footer>
+        <nav class="navbar">
+            <div class="navbar-inner">
+                <ul class="nav">
+                    <li><a href="#">About TCA</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact TCA</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="copyright">&copy; 2013 Thomas P. Cox: Architects, Inc. All rights reserved.<a href="#"><img src="assets/images/facebook-footer-button.png" height="20" width="130" alt="Facebook - CONNECT WITH US"></a></p>
+        
+    </footer><!-- END footer -->
+</div><!-- END .container -->
         
 
 

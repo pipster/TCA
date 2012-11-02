@@ -13,43 +13,120 @@ $yellow: #ffcc00;
 $white: #ffffff;
 $black: #000000;
 $black: #000000;
+$dark_gray: #333333;
+$dropdown_gray: #898989;
 
 /* fonts */
 $f_main: 'Verdana', sans-serif;
-$f_headings: 'nexa_lightregular', sans-serif;
+$f_regular: 'nexa_lightregular', sans-serif;
 $f_nav: 'nexa_lightregular', sans-serif;
 $f_bold: 'nexa_boldregular', sans-serif;
 $f_quote: 'nexa_lightregular', sans-serif;
 
 @mixin nav_text {
-  font-family: $f_headings;
+  font-family: $f_nav;
   text-transform: uppercase;
   color: $white;
+  font-size: 14px;
 }
 
 body {
   font-family: $f_main;
+  font-size: 11px;
+  line-height: 1.1em;
 }
 
-blockquote {
-  font-family: $f_quote;
+header {
+  position: relative;
+  height: 160px;
+  padding-top: 50px;
+  blockquote {
+    position: absolute;
+    right: 30%;
+    font-family: $f_quote;
+    text-align: right;
+    font-size: 31px;
+    line-height: 35px;
+    border: none;
+    padding-top: 25px;
+  }
+  .logo {
+    position: absolute;
+    right: 1%;
+    display: block;
+  }
 }
 
-@media (min-width: 0px) and (max-width: 800px) {
-.navbar-fixed-top {
-width: 940px;
-}
+footer {
+  color: $white;
+  position: relative;
+  margin-top: 20px;
+
+  .copyright {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 8px;
+  }
+  img {
+    padding: 0 30px;
+  }
+
+  .navbar-inner {
+    /* Firefox v3.6+ */
+background-image:-moz-linear-gradient(50% 0% -90deg,rgb(37,37,37) 0%,rgb(54,46,45) 100%); 
+/* safari v4.0+ and by Chrome v3.0+ */
+background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(37,37,37)),color-stop(1, rgb(54,46,45)));
+/* Chrome v10.0+ and by safari nightly build*/
+background-image:-webkit-linear-gradient(-90deg,rgb(37,37,37) 0%,rgb(54,46,45) 100%);
+/* Opera v11.10+ */
+background-image:-o-linear-gradient(-90deg,rgb(37,37,37) 0%,rgb(54,46,45) 100%);
+/* IE v10+ */
+background-image:-ms-linear-gradient(-90deg,rgb(37,37,37) 0%,rgb(54,46,45) 100%);
+background-image:linear-gradient(-90deg,rgb(37,37,37) 0%,rgb(54,46,45) 100%);
+height:30px;
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff252525,endColorstr=#ff362e2d,GradientType=0)";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff252525,endColorstr=#ff362e2d,GradientType=0);
+  }
+  .navbar .nav > li > a {
+    color: $white;
+    font-size: 10px;
+    line-height:180%;
+    text-shadow: none;
+  }
 }
 
-h1 {
+
+
+
+
+// @media (min-width: 0px) and (max-width: 800px) {
+// .navbar-fixed-top {
+// width: 940px;
+// }
+// }
+// 
+// 
+// 
+strong {
+  color: dark_gray;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+
+  a {
   color: $yellow;
-  font-family: $f_bold;
-  font-size: 20px;
+  font-size: 14px;
   text-transform: uppercase;
-}
-
-.logo {
-  
+  text-decoration: underline;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  }
 }
 
 .navbar-fixed-top {
@@ -57,12 +134,21 @@ h1 {
   position: absolute;
 }
 
+.navbar-inner {
+  border: none;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+  border-radius: 0;
+-webkit-box-shadow: 0;
+-moz-box-shadow: 0;
+box-shadow: 0;
+}
+
 .navbar-inverse {
   .navbar-inner {
     background-image: none;
     border: none;
     background-color: $black;
-
   }
   .nav > li {
     &.active {
@@ -86,6 +172,33 @@ h1 {
   }
   
 }
+
+.dropdown-menu a {
+color: $dropdown_gray !important;
+font-size: 12px !important;
+background-color: $white !important;
+text-transform: capitalize !important;
+}
+
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+  color: $yellow !important;
+  background-image: none !important;
+  font-weight: bold !important;
+
+
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+  background-image: none !important;
+  }
+
+  .dropdown-menu a:hover {
+    color: $yellow !important;
+  }
+
+  .nav > li.dropdown.active > a {
+    color: $yellow !important;
+  }
 
 
 
